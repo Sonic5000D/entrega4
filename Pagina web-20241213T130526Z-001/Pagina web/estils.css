@@ -1,0 +1,183 @@
+article {
+    margin: auto;
+}
+body {
+    background-color: #B732FA;
+    background: linear-gradient(45deg, #B732FA, #F85FFA);
+    font-family: 'Arial', sans-serif;
+}
+header, footer { 
+    background-color: #B732FA; 
+    text-align: center; 
+    padding: 1em; 
+    font-size: 1.5em; 
+}
+nav { 
+    background-color: #F85FFA; 
+    color: white; 
+    padding: 10px; 
+    text-align: center; 
+    margin-bottom: 20px; 
+}
+h1, h2, h3 {
+    text-transform: uppercase; 
+    text-align: center;
+}
+h1 { 
+    font-size: 2.5em; 
+    color: white; 
+    text-shadow: 6px 6px 4px #510b53; 
+    font-style: italic;
+}
+h2 {
+    font-size: 2em; 
+    color: #FA3083;
+}
+h3 {
+    font-size: 1.5em; 
+    color: rgb(61, 7, 57);
+}
+p { 
+    font-size: 1.2em; 
+    line-height: 1.6; 
+    color: #F85FFA; 
+}
+footer { 
+    font-weight: bold;
+    color: aliceblue;
+    text-shadow: 6px 6px 4px #510b53;
+    text-align: end;
+}
+span {
+    font-size: 1.2em; 
+    line-height: 1.6; 
+    color: rgb(197, 178, 178);  
+}
+img {
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 150px; 
+    height: auto;
+}
+b {
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    text-decoration: wavy; 
+    font-weight: 300;
+    color: rgb(197, 178, 178);
+}
+tr {
+    background-color: #9c749e;
+    margin: auto;
+    border-color: aliceblue;
+}
+th {
+    border-color: aliceblue;
+    text-shadow: 6px 6px 4px #510b53; 
+    color: #510b53;
+}
+td {
+    border-color: rgb(255, 240, 248);
+    text-shadow: 6px 6px 4px #510b53;
+    color: rgb(3, 0, 2);
+}
+li {
+    list-style-type: none; 
+    margin: 0; 
+    padding: 0;
+    color: #F85FFA;
+    text-shadow: 6px 6px 4px #510b53;
+}
+a {
+    color: #510b53;
+}
+a:hover {
+    color: #FA3083;
+    text-decoration: underline;
+}
+nav a {
+    transition: color 0.3s ease;
+}
+@media (max-width: 600px) {
+    nav {
+        font-size: 1em;
+        padding: 5px;
+    }
+    h1 {
+        font-size: 2em;
+    }
+}
+.Contenido.personal {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+.fas { 
+    color: #FA3083; margin-right: 5px
+}
+ul ul ul li {
+    margin-bottom: 10px;
+}
+.LMR{
+    background-color: #fff;
+}
+.PRG{
+    background-color: #FA3083;
+}
+.SOP{
+    background-color: #510b53;
+}
+.TUT{
+    color: #FFF;
+}
+.BSD{
+    background-color: #F85FFA;
+}
+.ENG{
+    background-color: #B732FA;
+}
+
+.flex-container{
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    margin-top:  50px;
+    box-shadow: 1px 0px 0px black, 0px 1px 0px black, -1px 0px 0px black, 0px -1px 0px black;
+    padding: 50px;
+    width: 50%;
+    background-color: #FFF;
+}
+.containerfotos{
+    width: 250px;
+    max-height: 250px;
+    padding: 10px;
+    
+}
+.video_container{
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    margin-top:  50px;
+    box-shadow: 1px 0px 0px black, 0px 1px 0px black, -1px 0px 0px black, 0px -1px 0px black;
+    padding: 50px;
+    width: 50%;
+    background-color: #FFF;
+}
+.audio_container{
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    margin-top:  50px;
+    box-shadow: 1px 0px 0px black, 0px 1px 0px black, -1px 0px 0px black, 0px -1px 0px black;
+    padding: 50px;
+    width: 50%;
+    background-color: #FFF;
+}
+

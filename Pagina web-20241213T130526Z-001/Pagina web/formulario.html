@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ivan</title>
+    <link rel="stylesheet" href="estils.css">
+    <link rel="icon" type="image/png" href="favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/svg+xml" href="favicon/favicon.svg">
+    <link rel="shortcut icon" href="favicon/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<header> 
+    <nav>
+        <a href="index(1).html" title="Ver Pagina Principal">Pagina Principal</a> |
+        <a href="horario.html" title="Ver Horario">Enlace Horario</a> |
+        <a href="modulos.html" title="Ver Lista de Módulos">Lista módulos</a>|
+        <a href="fotos.html" title="Ver Galeria de fotos">Galeria de Fotos</a>|
+    </nav> 
+</header>
+<h1>Formulari d'Opinió</h1>
+<div class="flex-container">
+    <form action="https://alumnat.cat/form" method="post">
+
+        <fieldset>
+            <legend>Informació personal</legend>
+
+            <label for="nom">Nom:</label><br>
+            <input type="text" id="nom" name="nom" required><br><br>
+
+            <label for="cognoms">Cognoms:</label><br>
+            <input type="text" id="cognoms" name="cognoms" required><br><br>
+
+            <label for="edat">Edat:</label><br>
+            <input type="text" id="edat" name="edat" required><br><br>
+
+            <label for="DNI">DNI:</label><br>
+            <input type="text" id="DNI" name="DNI" required><br><br>
+
+            <label for="correu">Correu electrònic:</label><br>
+            <input type="email" id="correu" name="correu" required><br><br>
+
+            <label for="imatge">Imatge</label><br>
+            <input type="file" id="imatge" name="imatge" required><br><br>
+
+            <label for="color">Color preferit</label><br>
+            <input type="color" id="color" name="color" required><br><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Formació acadèmica</legend>
+
+            <label for="Estudis">Estudis:</label><br>
+            <select id="Estudis" name="Estudis" required>
+                <option value="">Selecciona els teus estudis</option>
+                <option value="ESO">ESO</option>
+                <option value="Bachillerato">Bachillerat</option>
+                <option value="Ciclo medio">Cicle mitjà</option>
+                <option value="Ciclo superior">Cicle superior</option>
+                <option value="Titulo universitario">Títol universitari</option>
+            </select><br><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Informació addicional</legend>
+
+            <label for="opinio">Quin és el teu sexe?</label><br>
+            <input type="radio" id="home" name="opinio" value="Home" required>
+            <label for="home">Home</label><br>
+            <input type="radio" id="dona" name="opinio" value="Dona">
+            <label for="dona">Dona</label><br>
+            <input type="radio" id="prefereix_no_dir" name="opinio" value="Prefereix no dir-ho">
+            <label for="prefereix_no_dir">Prefereixo no dir-ho</label><br><br>
+
+            <label for="privacitat">Polítiques de privacitat</label><br>
+            <input type="checkbox" id="privacitat" name="privacitat" required>
+            <label for="privacitat">Acceptar Política de privacitat de l'empresa</label><br><br>
+
+            <input type="submit" value="Enviar">
+        </fieldset>
+    </form>
+</div>
+
+<footer> &copy; 2024 Iván Díaz Martínez </footer>
+</body>
+
+</html>
